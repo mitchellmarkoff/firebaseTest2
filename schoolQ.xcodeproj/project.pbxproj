@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273A90DDBDBB396EA7450F95 /* Pods_schoolQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4884DF3F8779D581B0D8679 /* Pods_schoolQ.framework */; };
+		44157C352189040400BCB17A /* answerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44157C342189040400BCB17A /* answerViewController.swift */; };
 		449419382167DE6D004FA64E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449419372167DE6D004FA64E /* AppDelegate.swift */; };
 		4494193A2167DE6D004FA64E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449419392167DE6D004FA64E /* ViewController.swift */; };
-		4494193D2167DE6D004FA64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4494193B2167DE6D004FA64E /* Main.storyboard */; };
 		4494193F2167DE6F004FA64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4494193E2167DE6F004FA64E /* Assets.xcassets */; };
 		449419422167DE6F004FA64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449419402167DE6F004FA64E /* LaunchScreen.storyboard */; };
 		4494194D2167DE6F004FA64E /* schoolQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494194C2167DE6F004FA64E /* schoolQTests.swift */; };
 		449419582167DE6F004FA64E /* schoolQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449419572167DE6F004FA64E /* schoolQUITests.swift */; };
+		4494196A2167DF4D004FA64E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 449419692167DF4D004FA64E /* GoogleService-Info.plist */; };
+		4494196C2167F3D1004FA64E /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494196B2167F3D1004FA64E /* homeViewController.swift */; };
+		4494196E2167F5AF004FA64E /* composeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494196D2167F5AF004FA64E /* composeViewController.swift */; };
+		4497FAF02178359700C88BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4497FAEE2178359700C88BA2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D59722D397A74A87E4DA4A0 /* Pods-schoolQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schoolQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-schoolQ/Pods-schoolQ.release.xcconfig"; sourceTree = "<group>"; };
+		44157C342189040400BCB17A /* answerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerViewController.swift; sourceTree = "<group>"; };
 		449419342167DE6D004FA64E /* schoolQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schoolQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		449419372167DE6D004FA64E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		449419392167DE6D004FA64E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4494193C2167DE6D004FA64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4494193E2167DE6F004FA64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449419412167DE6F004FA64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		449419432167DE6F004FA64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		449419532167DE6F004FA64E /* schoolQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schoolQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449419572167DE6F004FA64E /* schoolQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolQUITests.swift; sourceTree = "<group>"; };
 		449419592167DE6F004FA64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449419692167DF4D004FA64E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4494196B2167F3D1004FA64E /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		4494196D2167F5AF004FA64E /* composeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = composeViewController.swift; sourceTree = "<group>"; };
+		4497FAEF2178359700C88BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D28AE383C207C981044E99E /* Pods-schoolQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schoolQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-schoolQ/Pods-schoolQ.debug.xcconfig"; sourceTree = "<group>"; };
+		D4884DF3F8779D581B0D8679 /* Pods_schoolQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_schoolQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273A90DDBDBB396EA7450F95 /* Pods_schoolQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,8 @@
 				4494194B2167DE6F004FA64E /* schoolQTests */,
 				449419562167DE6F004FA64E /* schoolQUITests */,
 				449419352167DE6D004FA64E /* Products */,
+				8646D3D74CD9EB5E889B534A /* Pods */,
+				E73482990445CCC975CACD41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +112,15 @@
 		449419362167DE6D004FA64E /* schoolQ */ = {
 			isa = PBXGroup;
 			children = (
+				4497FAEE2178359700C88BA2 /* Main.storyboard */,
 				449419372167DE6D004FA64E /* AppDelegate.swift */,
 				449419392167DE6D004FA64E /* ViewController.swift */,
-				4494193B2167DE6D004FA64E /* Main.storyboard */,
+				44157C342189040400BCB17A /* answerViewController.swift */,
+				4494196B2167F3D1004FA64E /* homeViewController.swift */,
+				4494196D2167F5AF004FA64E /* composeViewController.swift */,
 				4494193E2167DE6F004FA64E /* Assets.xcassets */,
 				449419402167DE6F004FA64E /* LaunchScreen.storyboard */,
+				449419692167DF4D004FA64E /* GoogleService-Info.plist */,
 				449419432167DE6F004FA64E /* Info.plist */,
 			);
 			path = schoolQ;
@@ -125,6 +144,23 @@
 			path = schoolQUITests;
 			sourceTree = "<group>";
 		};
+		8646D3D74CD9EB5E889B534A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D28AE383C207C981044E99E /* Pods-schoolQ.debug.xcconfig */,
+				0D59722D397A74A87E4DA4A0 /* Pods-schoolQ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E73482990445CCC975CACD41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4884DF3F8779D581B0D8679 /* Pods_schoolQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4494195C2167DE6F004FA64E /* Build configuration list for PBXNativeTarget "schoolQ" */;
 			buildPhases = (
+				FBA3B1751CF427ECDF2A6F90 /* [CP] Check Pods Manifest.lock */,
 				449419302167DE6D004FA64E /* Sources */,
 				449419312167DE6D004FA64E /* Frameworks */,
 				449419322167DE6D004FA64E /* Resources */,
+				6EB610EE9E34BEC5E4416474 /* [CP] Embed Pods Frameworks */,
+				62C35DD7E35745384EF3B521 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				449419422167DE6F004FA64E /* LaunchScreen.storyboard in Resources */,
+				4494196A2167DF4D004FA64E /* GoogleService-Info.plist in Resources */,
 				4494193F2167DE6F004FA64E /* Assets.xcassets in Resources */,
-				4494193D2167DE6D004FA64E /* Main.storyboard in Resources */,
+				4497FAF02178359700C88BA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +291,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62C35DD7E35745384EF3B521 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-schoolQ/Pods-schoolQ-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schoolQ/Pods-schoolQ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB610EE9E34BEC5E4416474 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-schoolQ/Pods-schoolQ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schoolQ/Pods-schoolQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA3B1751CF427ECDF2A6F90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-schoolQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		449419302167DE6D004FA64E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4494193A2167DE6D004FA64E /* ViewController.swift in Sources */,
+				4494196C2167F3D1004FA64E /* homeViewController.swift in Sources */,
 				449419382167DE6D004FA64E /* AppDelegate.swift in Sources */,
+				44157C352189040400BCB17A /* answerViewController.swift in Sources */,
+				4494196E2167F5AF004FA64E /* composeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +411,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4494193B2167DE6D004FA64E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4494193C2167DE6D004FA64E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		449419402167DE6F004FA64E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				449419412167DE6F004FA64E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4497FAEE2178359700C88BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4497FAEF2178359700C88BA2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,6 +548,7 @@
 		};
 		4494195D2167DE6F004FA64E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D28AE383C207C981044E99E /* Pods-schoolQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +566,7 @@
 		};
 		4494195E2167DE6F004FA64E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D59722D397A74A87E4DA4A0 /* Pods-schoolQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
